@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="encriptador_style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Encriptador</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="caja1">
+                <img src="imagenesEncriptador/candado.png" alt=""> 
+                <h1>ENCRIPTADOR</h1>
+        </div>
+    </header>
+    
+    <main id="general">
+
+        <section class="textArea">
+            <div class="entradaTexto">
+                <textarea id="input" class="entrada"  placeholder ="INGRESA TU MENSAJE"></textarea>
+            </div>
+            <div class="salidaTexto">
+                <textarea id="output" class="salida"  placeholder="TEXTO ENCRIPTADO"></textarea>
+            </div>
+        </section>
+
+        <section class="cajaBotones">
+            <div class="botones">
+                <input  class= "botonEncriptar" type="button" value="Encriptar"> </input>
+                <input  class= "boton-desencriptar" type="button" value="Desencriptar"> </input>
+                <input  class= "boton-copiar" type="button" value="Copiar" onclick="copiarTexto();"> </input>
+            </div>
+        </section>
+
+        <section class="piePagina ">
+            <div id="links">
+                <img class="githubImagen" src="imagenesEncriptador/githublogo.png" alt="">
+                <a class="github" href="https://github.com/andyp896">Andres Perez</a>
+                <img class="linkedinImagen" src="imagenesEncriptador/likendin.png" alt="">
+                <a class="linkedin" href="www.linkedin.com/in/andres-pérez-70948b258">Andres Perez</a>
+                <p class="copyright">&copy Copyright APVandres</p>
+            </div> 
+        </section>
+
+    </main>
+</body>
+
+<script src="logica.js"></script>
+
+</html>
